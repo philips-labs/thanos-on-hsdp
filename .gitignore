@@ -2,6 +2,6 @@
 .idea/
 .vscode/
 local.yml
-*.tfvars*
+*.tfvars
 *.tfstate*
 *.zip
