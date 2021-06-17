@@ -1,0 +1,9 @@
+us_east_ct_oauth2_client_id        = "changeme"
+us_east_ct_oauth2_password         = "changeme"
+
+region           = "us-east"
+cf_org_name      = "changeme"
+cf_space_name    = "changeme"
+cf_username      = "changeme"
+cf_password      = "changeme"
+grafana_password = "changeme"
