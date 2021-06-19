@@ -3,5 +3,6 @@ output "grafana_endpoint" {
 }
 
 output "grafana_auth" {
-  value = module.thanos.grafana_auth
+  sensitive = true
+  value     = module.thanos.grafana_auth
 }
