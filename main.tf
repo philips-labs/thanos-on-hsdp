@@ -13,16 +13,6 @@ module "thanos" {
     API_ENDPOINT       = data.hsdp_config.cf.url
     ENABLE_CF_EXPORTER = true
   }
-
-  enable_grafana = true
-  grafana_environment = {
-    GF_SECURITY_ADMIN_USER     = var.cf_username
-    GF_SECURITY_ADMIN_PASSWORD = var.grafana_password
-  }
-
-  thanos_image       = "philipslabs/cf-thanos-with-exporter:latest"
-  thanos_store_image = "philipslabs/cf-thanos-with-exporter:latest"
-  thanos_query_image = "philipslabs/cf-thanos-with-exporter:latest"
 }
 
 data "hsdp_config" "cf" {
