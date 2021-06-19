@@ -2,8 +2,8 @@ module "thanos" {
   source  = "philips-labs/thanos/cloudfoundry"
   version = "2.0.1"
 
-  cf_org_name    = var.cf_org_name
-  cf_space_name  = var.cf_space_name
+  cf_org_name   = var.cf_org_name
+  cf_space_name = var.cf_space_name
 
   // needed for paas_prometheus_exporter
   environment = {
@@ -24,5 +24,5 @@ module "thanos" {
 }
 
 data "hsdp_config" "cf" {
-  service     = "cf"
+  service = "cf"
 }

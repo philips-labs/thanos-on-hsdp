@@ -8,7 +8,7 @@ terraform {
       source = "cloudfoundry-community/cloudfoundry"
     }
     grafana = {
-      source = "grafana/grafana"
+      source  = "grafana/grafana"
       version = ">= 1.11.0"
     }
   }

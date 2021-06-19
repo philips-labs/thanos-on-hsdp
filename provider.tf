@@ -1,8 +1,5 @@
 provider "hsdp" {
-  region           = "us-east"
-  environment      = "client-test"
-  oauth2_client_id = var.us_east_ct_oauth2_client_id
-  oauth2_password  = var.us_east_ct_oauth2_password
+  region = var.region
 }
 
 provider "cloudfoundry" {
