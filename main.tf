@@ -11,6 +11,7 @@ module "thanos" {
     USERNAME     = var.cf_username
     PASSWORD     = var.cf_password
     API_ENDPOINT = data.hsdp_config.cf.url
+    ENABLE_CF_EXPORTER = true
   }
 
   enable_grafana = true
