@@ -107,19 +107,19 @@ provider "registry.terraform.io/philips-labs/cloudfoundry" {
 }
 
 provider "registry.terraform.io/philips-software/hsdp" {
-  version     = "0.16.3"
-  constraints = ">= 0.12.12"
+  version     = "0.17.0"
+  constraints = ">= 0.14.3, >= 0.16.3"
   hashes = [
-    "h1:QUyPIf3CKxkUaVxOKA0ykUyxvfJqmZ/pL9+6Q+LJeIA=",
-    "zh:0e2a58b691282c550b9022320ef0024c9004eccb20a4ab52a20e67d47fc45afd",
-    "zh:295a2766c472ccdef2f006e28d623b484fb3a00b7eeeb2e283032053a35ef25e",
-    "zh:325e044bea26f67f10adb9b361c961dd2067fc255ac51bb4a26cecc1430b9554",
-    "zh:5961ec51efd666c11cc7282e8b5dfa51cf7db45646913bf2956935c1618476bf",
-    "zh:6c4b0a2dce855435e1c03079b1ac35110e3c9a632082eee32d21b95aa3c64c43",
-    "zh:6f96230982ce3e8f1f19880ac30e6493ac666a6b4028d7b888b1289d713faedc",
-    "zh:8f2ecffa9001e13d21b65ce8ad4b2f41af20f197b7a7966d33580f5584406af5",
-    "zh:9694570fa767e3e2e291e318516a40feaf6b6055468071b8baad3503e2be9633",
-    "zh:c1225331cdc3dee2be7e1643ccde2668cc5a94d9c8b0c3c77d4cbfd3c352a70e",
-    "zh:de05b119c8eae85d79f6642dca537fb71dffbc0f25be89ddd70db46063a773fb",
+    "h1:fxA2kCvh1QDnXLlG48zM3mO/K1h4reFKUpX/RCYXyLM=",
+    "zh:5e639ce8475988b7d0e95cee964e25a7316a7e5df9495e6196f15a7289ce9c7e",
+    "zh:6145f56624cd416cb036b61f4c8c7b031a05b1bb3810e588ff0bc614da307360",
+    "zh:6742165dcae56b0bd1b4244a54038c1143cff4c293b1b6273d4d59867f65dce6",
+    "zh:7db34815649e15c0763ad4791d954279f38b5bc62bc6dd604a311b3ca8ce5bcc",
+    "zh:8b87f5a346e9efebafa7579731ecd98a2009692669ed6487b775d2d43d8d6341",
+    "zh:9152fbc5ea78194236f8199f6a6b979898ab5d27d5616ae4f7088e328d03887f",
+    "zh:925116fe8d1e40bc7944483c348182fa4a3a3513d57d6052124261896dacffc0",
+    "zh:9c7842fecd470a223f9c093d9445c1b7e76a3a1a08c286c5a47971c8102d9f7c",
+    "zh:cd34ac511182182f42d8796800ce0f40f7f0137fc741ed99261622c526e92fef",
+    "zh:ef3d275ea8abdd83cdd8c7d9ed88a4ce81c025fc238afce899f96f1509e7a126",
   ]
 }
