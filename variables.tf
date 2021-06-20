@@ -3,7 +3,6 @@ variable "cf_password" {}
 variable "cf_org_name" {}
 variable "cf_space_name" {}
 variable "region" {}
-variable "grafana_user" {}
 
 variable "grafana_user" {
   type = string
