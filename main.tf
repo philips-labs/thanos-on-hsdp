@@ -8,8 +8,8 @@ module "thanos" {
 
   // needed for paas_prometheus_exporter
   environment = {
-    USERNAME           = var.cf_username
-    PASSWORD           = var.cf_password
+    USERNAME = var.cf_username
+    PASSWORD = var.cf_password
     //noinspection HILUnresolvedReference
     API_ENDPOINT       = data.hsdp_config.cf.url
     ENABLE_CF_EXPORTER = true
