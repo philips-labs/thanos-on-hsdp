@@ -1,9 +1,9 @@
 module "thanos" {
   source  = "philips-labs/thanos/cloudfoundry"
-  version = "2.0.4"
+  version = "2.1.0"
 
   cf_org_name      = var.cf_org_name
-  cf_space_name    = var.cf_space_name
+  cf_space_id      = data.cloudfoundry_space.space.id
   grafana_password = var.grafana_password
 
   // needed for paas_prometheus_exporter
