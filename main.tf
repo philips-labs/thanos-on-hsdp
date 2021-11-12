@@ -2,9 +2,8 @@ module "thanos" {
   source  = "philips-labs/thanos/cloudfoundry"
   version = "5.0.1"
 
-  cf_org_name      = var.cf_org_name
-  cf_space_id      = data.cloudfoundry_space.space.id
-  grafana_password = var.grafana_password
+  cf_org_name = var.cf_org_name
+  cf_space_id = data.cloudfoundry_space.space.id
 
   // needed for paas_prometheus_exporter
   environment = {
@@ -13,6 +12,12 @@ module "thanos" {
     //noinspection HILUnresolvedReference
     API_ENDPOINT       = data.hsdp_config.cf.url
     ENABLE_CF_EXPORTER = true
+  }
+
+  cf_functional_account = {
+    api_endpoint = data.hsdp_config.cf.url
+    username     = var.cf_username
+    password     = var.cf_password
   }
 }
 
