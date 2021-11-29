@@ -25,23 +25,23 @@ provider "registry.terraform.io/cloudfoundry-community/cloudfoundry" {
 }
 
 provider "registry.terraform.io/grafana/grafana" {
-  version     = "1.14.0"
-  constraints = ">= 1.11.0"
+  version     = "1.16.0"
+  constraints = ">= 1.14.0"
   hashes = [
-    "h1:NhnAEyFKjzFugLI8ylI5hluM7/k4gTUVM5OX3GHll4c=",
-    "zh:268975c8cbf5036d7487e6e74ff5a37c77a3189888f594e7d0e1f75eed84f643",
-    "zh:4823fa3feb90f54a44a22ce67ad31bae6b904d8d7a3c26f6afaeb116088049e8",
-    "zh:53a89c1ef237d0c5351e253b0f5bbdb531fe7fdc7bae8c9cbf8f51776f2c5d11",
-    "zh:5ec43955ba5256292c8ed15c24e991090e6c2240c6f7416ff1eed85046e5e4bb",
-    "zh:6648f00bc62a28cabd8bdebd76c9142d221bc9eac38f42ed754d2585733f01d2",
-    "zh:728c93276d31693243e1742043dfa45c69e0568d4a0a5cb3c52d4a84d404946f",
-    "zh:a8bc803ffe385641f3ff83213a13d76adde53e9d05d882abc475a48655c8ccb5",
-    "zh:b7df7d2b8b0c6bbaf92737a0ad84eaf2d5f9e9cefe69a32ca53724601c32292f",
-    "zh:b90ef38967ff652d4e388fc1212e56be33e865f96b27250f18ea2c5e89a1ab9e",
-    "zh:e714ecffa3a1172b7da9762b828923e892ff6fa7c6d9ee22d5dcefcd401e7570",
-    "zh:e9c1b85b26a22801380ee72fc7cdf0f0807cee017bb002ede3b775f55b4b5a35",
-    "zh:edd9416d2f493f1fa6c41d9578da19f35bb09e1df3605b862ecc5645a3a4fe37",
-    "zh:fcfdfc2d4cd2d72791c3ea936bc4eb6da3efb81915c4718dd28c17734f950b1d",
+    "h1:z0m2N/WL7YUT59rZyA9u6l7DZyhSCOOmdnYHlTY6gq4=",
+    "zh:041455b7d9f835fa25b7d4f63b86934063bed34f32c49867ed72b16c627c9a48",
+    "zh:06af2cae6a1800282028441ea7d0d960be2885af5bfc7f41b25221fd34b1b7f4",
+    "zh:06d37b1bbc9cf949843b1a1ce2c99c364d9668409cbcf27a829f986956f9dc37",
+    "zh:49457708bbe78dc4182e05aec721a7e05767fd879dc0672f78ee9e3bf3b89fc1",
+    "zh:495e24a05bec3b33b4d55de99f0637f74c9b74ae9a543ec22038fa5e14bc254a",
+    "zh:7a58f7d21787c1f58303125d03e3f9a7dcb0a681c06eb7eecd4db4cbe12eaeaf",
+    "zh:880d07c31e7aeb0c14fb6f4001b9e031ff1f025fabcfd23420d2373950af6948",
+    "zh:9a2de86baaae820623fba351ab9e6ce76d353b0c3b3d49fe85d479ed72ac0b11",
+    "zh:aaf9ae3e3a8268627b3c7054d96899605be4d9a8328b364bd3592bf620f73529",
+    "zh:aca0772ffc4fa984fdd5649ca684e1cf8b292bd990e168788e7b14a5924b53c8",
+    "zh:b42986fab6bc16107152e66738f7d165c9c349ec299ca45cceef65eaaef356de",
+    "zh:b5b932b32c43e28191681034afd85c67bcdd81a5b3c15a641b22224a2735d982",
+    "zh:e3333244f3853d8e7a6a1114f90e0b3d5af50c7a0113e3fa84e2fbcec4c6e166",
   ]
 }
 
