@@ -107,20 +107,20 @@ provider "registry.terraform.io/philips-labs/cloudfoundry" {
 }
 
 provider "registry.terraform.io/philips-software/hsdp" {
-  version     = "0.26.5"
-  constraints = ">= 0.14.3, >= 0.18.1"
+  version     = "0.29.3"
+  constraints = ">= 0.17.0, >= 0.18.1"
   hashes = [
-    "h1:CIydpHhdnng+l53ziRZTToL3vid7ExjjIuyQcZ1uaQY=",
-    "zh:0233fc2112a31ebdd3312ed247058d304d7b1c02d9a5f054f30c569919de6b45",
-    "zh:2c636cdc3cf35eb48a8603e57b98cb63d98adf3231266699c3bfbdeccf327ba2",
-    "zh:31f32a0a49d869a74abfe079305af51ecfb2c5d1af7d79ba6d31caa9524f2fa5",
-    "zh:6e16e85a733911bb8680561e4845f9dd069ebdab7c768ff12222d6dca45e6d62",
-    "zh:7570f2924f914dc5437c28ba99903b6c16862503673edc672131cb468fc2dd62",
-    "zh:956ee68d1a72243bdbc5cb4be405cc053292ca2fd5dd9635b09cde5046a57c4e",
-    "zh:a0e1b2ea9b3643e0194b9d86ca926ce40bf898aad4f235d6855654aea4d337f1",
-    "zh:c71bedfeaec6a5567681020dcbf7f8408b6a80c93b3acfa89dee62231a88abd4",
-    "zh:db9105412aeb7843d29e14d6730115449428571f1331740af070a3faa1665513",
-    "zh:e9c78093b4ed0df7d5f15666eb8bf2b8b0f04595b691249aa0f5466488bc4c11",
-    "zh:ffd50d8c9583a613652d7baf26f9a99db8d0d87aa441c2376f6381982ec56a49",
+    "h1:0EK8bq8Bq8c1YqZqcnGgObV+m6Bth3O3BnBDnNs8JwE=",
+    "zh:1335ec69d14e3d6574e78411031044899f01a15a56dd95328942be745d9c2a76",
+    "zh:3d4e566b145f44b21feed0fbc853261aa357c757dbbf8244956bf0efb9f7aea6",
+    "zh:6cd9c248c97a9e5d0890ad0578fe95c93f30ecb56ec4ffb109a70cb59478892e",
+    "zh:6cfb0b7e39a8ae0491cb76c899d22b4bf88ca4eaa18010523bd2820099b5bb66",
+    "zh:7a6858a3336587dafcfc8362bea1bb83a48dbdbc16271acde513c35fcd368174",
+    "zh:7eb5bc9ccdab0d531524d5ab8d5f6dda831bb79fdce23e153cd9603487374d3b",
+    "zh:964810180e0319a5729ca7559eb56a538835e5423a4d4b27db7a433e1c2b3bbc",
+    "zh:ae0bd4a31883c9fb719827c83656c8305ffeb91627b2a9f7b8efc6219bf4ed2d",
+    "zh:dadc9d60274df01eaa508e7c227e67266c34e6fc938f35d82692822922cd8ea1",
+    "zh:ec63b003668f14e84103bf5cab82e1d06496c0bcf59902a2d46a0a330c26a0c7",
+    "zh:edf1ecbf5a9d6ce48e716f27e6aa4c2d73bbc85585bb2f01d221f8f154f93a87",
   ]
 }
