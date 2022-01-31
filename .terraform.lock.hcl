@@ -107,20 +107,20 @@ provider "registry.terraform.io/philips-labs/cloudfoundry" {
 }
 
 provider "registry.terraform.io/philips-software/hsdp" {
-  version     = "0.26.5"
-  constraints = ">= 0.14.3, >= 0.18.1"
+  version     = "0.29.6"
+  constraints = ">= 0.17.0, >= 0.18.1"
   hashes = [
-    "h1:CIydpHhdnng+l53ziRZTToL3vid7ExjjIuyQcZ1uaQY=",
-    "zh:0233fc2112a31ebdd3312ed247058d304d7b1c02d9a5f054f30c569919de6b45",
-    "zh:2c636cdc3cf35eb48a8603e57b98cb63d98adf3231266699c3bfbdeccf327ba2",
-    "zh:31f32a0a49d869a74abfe079305af51ecfb2c5d1af7d79ba6d31caa9524f2fa5",
-    "zh:6e16e85a733911bb8680561e4845f9dd069ebdab7c768ff12222d6dca45e6d62",
-    "zh:7570f2924f914dc5437c28ba99903b6c16862503673edc672131cb468fc2dd62",
-    "zh:956ee68d1a72243bdbc5cb4be405cc053292ca2fd5dd9635b09cde5046a57c4e",
-    "zh:a0e1b2ea9b3643e0194b9d86ca926ce40bf898aad4f235d6855654aea4d337f1",
-    "zh:c71bedfeaec6a5567681020dcbf7f8408b6a80c93b3acfa89dee62231a88abd4",
-    "zh:db9105412aeb7843d29e14d6730115449428571f1331740af070a3faa1665513",
-    "zh:e9c78093b4ed0df7d5f15666eb8bf2b8b0f04595b691249aa0f5466488bc4c11",
-    "zh:ffd50d8c9583a613652d7baf26f9a99db8d0d87aa441c2376f6381982ec56a49",
+    "h1:q9Fwq1ijMJDe2LwNGj8Q8b0cJ1anyfxTydsFHjx5vmo=",
+    "zh:1eec5ab06ac60aca7231d22305b44ef27944f99b10196189c0cc751e55a9dc92",
+    "zh:2d8a9528ed1e8548dfaea4a9bd0129673b259d89f2c2d64c71b64ce5c9ea6896",
+    "zh:5b63607457578937243ed1ec24fd3e33e00e47e1fdfb26be9c7c6571e752001a",
+    "zh:5ef07cf9c32f76837a6481a9ce596aa1f07ca0fff19578fcf1121bc05c86d40e",
+    "zh:7fe654c250ac46faa7d2ebc15b55e40a2f28f8c143cd682785bee7496887bc6f",
+    "zh:829eb7f30292beff419f220ac512d7abcf9bf209de82503dc78f3d6a891545a8",
+    "zh:9f42b641089cf5036b0c08f2b0a6a5f4db8bcfdbd6ebd3db71b299c96c5209f1",
+    "zh:cae3818c2526c6c90e4f70fa5d9aedc495dd8cb51495e21aff5b3b1ffd75d989",
+    "zh:d0f259d53a457cf3fb4409d2dd3a3e4682c1ea5fb3a1cc6df7174e9f588db8e7",
+    "zh:d69b91d6ff0053d05143708113be5d28f4e937b1bfc7ab7092686fd70531ecb0",
+    "zh:f3af0e08bd7b8c5d3ff91b1dedd0e24d1b2ad62e200c58c41be86c28bc88468b",
   ]
 }
