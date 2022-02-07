@@ -107,20 +107,20 @@ provider "registry.terraform.io/philips-labs/cloudfoundry" {
 }
 
 provider "registry.terraform.io/philips-software/hsdp" {
-  version     = "0.26.5"
-  constraints = ">= 0.14.3, >= 0.18.1"
+  version     = "0.29.8"
+  constraints = ">= 0.17.0, >= 0.18.1"
   hashes = [
-    "h1:CIydpHhdnng+l53ziRZTToL3vid7ExjjIuyQcZ1uaQY=",
-    "zh:0233fc2112a31ebdd3312ed247058d304d7b1c02d9a5f054f30c569919de6b45",
-    "zh:2c636cdc3cf35eb48a8603e57b98cb63d98adf3231266699c3bfbdeccf327ba2",
-    "zh:31f32a0a49d869a74abfe079305af51ecfb2c5d1af7d79ba6d31caa9524f2fa5",
-    "zh:6e16e85a733911bb8680561e4845f9dd069ebdab7c768ff12222d6dca45e6d62",
-    "zh:7570f2924f914dc5437c28ba99903b6c16862503673edc672131cb468fc2dd62",
-    "zh:956ee68d1a72243bdbc5cb4be405cc053292ca2fd5dd9635b09cde5046a57c4e",
-    "zh:a0e1b2ea9b3643e0194b9d86ca926ce40bf898aad4f235d6855654aea4d337f1",
-    "zh:c71bedfeaec6a5567681020dcbf7f8408b6a80c93b3acfa89dee62231a88abd4",
-    "zh:db9105412aeb7843d29e14d6730115449428571f1331740af070a3faa1665513",
-    "zh:e9c78093b4ed0df7d5f15666eb8bf2b8b0f04595b691249aa0f5466488bc4c11",
-    "zh:ffd50d8c9583a613652d7baf26f9a99db8d0d87aa441c2376f6381982ec56a49",
+    "h1:hts9Rd8C1FdZDmseucVobq9GDzG/AfLjuoMtWw0kXaE=",
+    "zh:11397a3ea0cc414708563e1c556cecae39d1b94e36e9fff31e79be874bb849b9",
+    "zh:12ab7819572f4c6b983944d5ab8d7e3f077c89c53462a7ba1985d1e2237e4d62",
+    "zh:130916287cf409c16d7c457e60e0e5ce283582b3c1aa45894b66b819c794a138",
+    "zh:14a1ad82e1cc88feb6df68387d8054dc4d01c4c56feb33ca88db7236895a578e",
+    "zh:1868adfc019f0e9d4c383bb3c5105ffd00020b067f16e939d1bb110b395451b2",
+    "zh:2a7596af8c737a035d0b8e9bfbea393df31b35a53b7b42027f794aa91c30e887",
+    "zh:36f38a4306db1bec05cacbd58cac68351923b45e37cc3cdd7d0abf938a016b7b",
+    "zh:9b4db50e217b3935f65f02ca3d42356ceb006e3060dd83c27660e248e5c8269d",
+    "zh:ac01bd93b4382b6fd71d3d4dbd47f091ac1450a5d6c34b14cff086754160c9ba",
+    "zh:d93fc9b458d38b79f9ecaad5acaff50cb1e5b6f67f6c1c74abcec76c139eb00e",
+    "zh:ff9638372cf37ee67d583f3e44a5be57d79a467a57813d57797f55a35a4873b6",
   ]
 }
