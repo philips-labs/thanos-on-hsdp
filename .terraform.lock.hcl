@@ -25,23 +25,23 @@ provider "registry.terraform.io/cloudfoundry-community/cloudfoundry" {
 }
 
 provider "registry.terraform.io/grafana/grafana" {
-  version     = "1.14.0"
-  constraints = ">= 1.11.0"
+  version     = "1.19.0"
+  constraints = ">= 1.14.0"
   hashes = [
-    "h1:NhnAEyFKjzFugLI8ylI5hluM7/k4gTUVM5OX3GHll4c=",
-    "zh:268975c8cbf5036d7487e6e74ff5a37c77a3189888f594e7d0e1f75eed84f643",
-    "zh:4823fa3feb90f54a44a22ce67ad31bae6b904d8d7a3c26f6afaeb116088049e8",
-    "zh:53a89c1ef237d0c5351e253b0f5bbdb531fe7fdc7bae8c9cbf8f51776f2c5d11",
-    "zh:5ec43955ba5256292c8ed15c24e991090e6c2240c6f7416ff1eed85046e5e4bb",
-    "zh:6648f00bc62a28cabd8bdebd76c9142d221bc9eac38f42ed754d2585733f01d2",
-    "zh:728c93276d31693243e1742043dfa45c69e0568d4a0a5cb3c52d4a84d404946f",
-    "zh:a8bc803ffe385641f3ff83213a13d76adde53e9d05d882abc475a48655c8ccb5",
-    "zh:b7df7d2b8b0c6bbaf92737a0ad84eaf2d5f9e9cefe69a32ca53724601c32292f",
-    "zh:b90ef38967ff652d4e388fc1212e56be33e865f96b27250f18ea2c5e89a1ab9e",
-    "zh:e714ecffa3a1172b7da9762b828923e892ff6fa7c6d9ee22d5dcefcd401e7570",
-    "zh:e9c1b85b26a22801380ee72fc7cdf0f0807cee017bb002ede3b775f55b4b5a35",
-    "zh:edd9416d2f493f1fa6c41d9578da19f35bb09e1df3605b862ecc5645a3a4fe37",
-    "zh:fcfdfc2d4cd2d72791c3ea936bc4eb6da3efb81915c4718dd28c17734f950b1d",
+    "h1:B2/Xi+a3tzAkK8cgnXxwM7GYvWPGYNpXKM3d0smrYLU=",
+    "zh:01c42944e6fe94301b639a96d3dad3407e946cb40f858b21ec4662e21a030bc3",
+    "zh:145c9ce8dc2691300a81f61964e802acf5bc891a627f4805b0f98846399499bc",
+    "zh:18a16eaef3cf2cade2db1653bdb73ae10e7b25f6d4fc741d6df6fb4eddbfb342",
+    "zh:499eea31b6b0b7debd2a56b6f6567eb7bb0cbd09bb04afc11f18d5bf6369c5b8",
+    "zh:56d30fb9ec3ef995bb065ea1bbe426671c6803c434ff91194cc51a2e8205ff85",
+    "zh:579a7f2d764e69e902e865d7b8c101cf6c1c2e5e898f96df57631c260b9830cc",
+    "zh:78fcac0e59c3209ec27827887d5c6ef45884423ba4c7992c1f20afac11ab5855",
+    "zh:7c0bec2ce6a40428b98f6f01efc20328278a02fdf5d1255683549aa374d9f95d",
+    "zh:834d461d25048b4068ddbc3fb94dd9c6d096d3db6873fa427c5fd036234198c3",
+    "zh:97cada9d430e6df179e78d6ba30e000169be1e8f203e4cf2c01a98a573394655",
+    "zh:a15a30b5d9defd33d14624f5c7a07316d8f2a886860278233c58a4f9af1405be",
+    "zh:e22359c39997f7be0a4afec54584d747d61eaa4293e5ef668f3d26d56a852007",
+    "zh:e3239bb2e3d91bcf164c899317e7d304f8f76319a333c00d48689109de7d3f9a",
   ]
 }
 
