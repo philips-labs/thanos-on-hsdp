@@ -25,23 +25,23 @@ provider "registry.terraform.io/cloudfoundry-community/cloudfoundry" {
 }
 
 provider "registry.terraform.io/grafana/grafana" {
-  version     = "1.14.0"
-  constraints = ">= 1.11.0"
+  version     = "1.20.1"
+  constraints = ">= 1.14.0"
   hashes = [
-    "h1:NhnAEyFKjzFugLI8ylI5hluM7/k4gTUVM5OX3GHll4c=",
-    "zh:268975c8cbf5036d7487e6e74ff5a37c77a3189888f594e7d0e1f75eed84f643",
-    "zh:4823fa3feb90f54a44a22ce67ad31bae6b904d8d7a3c26f6afaeb116088049e8",
-    "zh:53a89c1ef237d0c5351e253b0f5bbdb531fe7fdc7bae8c9cbf8f51776f2c5d11",
-    "zh:5ec43955ba5256292c8ed15c24e991090e6c2240c6f7416ff1eed85046e5e4bb",
-    "zh:6648f00bc62a28cabd8bdebd76c9142d221bc9eac38f42ed754d2585733f01d2",
-    "zh:728c93276d31693243e1742043dfa45c69e0568d4a0a5cb3c52d4a84d404946f",
-    "zh:a8bc803ffe385641f3ff83213a13d76adde53e9d05d882abc475a48655c8ccb5",
-    "zh:b7df7d2b8b0c6bbaf92737a0ad84eaf2d5f9e9cefe69a32ca53724601c32292f",
-    "zh:b90ef38967ff652d4e388fc1212e56be33e865f96b27250f18ea2c5e89a1ab9e",
-    "zh:e714ecffa3a1172b7da9762b828923e892ff6fa7c6d9ee22d5dcefcd401e7570",
-    "zh:e9c1b85b26a22801380ee72fc7cdf0f0807cee017bb002ede3b775f55b4b5a35",
-    "zh:edd9416d2f493f1fa6c41d9578da19f35bb09e1df3605b862ecc5645a3a4fe37",
-    "zh:fcfdfc2d4cd2d72791c3ea936bc4eb6da3efb81915c4718dd28c17734f950b1d",
+    "h1:o5F0daopOXRnfhGYUQMv8XIqmkJfQiandQVVl7XUCaM=",
+    "zh:09072c2ba8a19d6ff27dc39c29cefdf8d315cb0f136db846d43f6b24c0b512fe",
+    "zh:1c52e0f4a8f1dacd392286e722997a55e778be8dfde70e2c4e73499c56bfd514",
+    "zh:2be1330bc6ebd6f80953a108586dc1e21f3e9b3d36761ac13e71f0f88714fd76",
+    "zh:39e0c31050d99635df7c547d6d292c8eb471e5258ea47f761a5cd605fd7527de",
+    "zh:59dc794ce338a939b7a2a76e39665a4c98a5fd2bcccd8bd5653920fde354b699",
+    "zh:735e3af6ad4168023657291a08315b63896e7bbe37693a73fe0447762ac531e6",
+    "zh:7a85f58c6e2d15e677ba9a719299deefcec89fc5039648b39adef57e36e70533",
+    "zh:9b7c2e66ccc1989e09a3ba1edabb37f6a896cf0279abb935c3251e2d9a749a9f",
+    "zh:a9bbbcc17dcfd0eaff5dd600ceb5a13e9e07afb53012b680fe462162815ec164",
+    "zh:b89156bd5291aec6938ffac9a6ff8da2d3e9c2b4c92d5dbf158b33e837a5f4e2",
+    "zh:d798aef4a1430b9401886f69ee1287394e6dff7b1d047788f40a516ba94f5194",
+    "zh:eecb6f5246785346815aafab38268a526bc99c2767603b0750dc1ecc4f429190",
+    "zh:f339d0456211bcd74968f8a0c27469e9c3a2fbc694b57c5c0adcb15143ec9bc7",
   ]
 }
 
