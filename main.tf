@@ -1,6 +1,6 @@
 module "thanos" {
   source  = "philips-labs/thanos/cloudfoundry"
-  version = "6.3.1"
+  version = "6.5.0"
 
   cf_org_name = var.cf_org_name
   cf_space_id = data.cloudfoundry_space.space.id
