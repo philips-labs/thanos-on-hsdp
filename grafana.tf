@@ -1,6 +1,6 @@
 module "grafana" {
   source             = "philips-labs/grafana/cloudfoundry"
-  version            = "9.5.2"
+  version            = "9.6.0"
   cf_org_name        = var.cf_org_name
   cf_space_id        = var.cf_space_id
   name_postfix       = var.name_postfix
